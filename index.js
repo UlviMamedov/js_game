@@ -9,7 +9,7 @@ if (!wantsToPlay) {
 
     const userGuess = prompt("Выбери любое число от 1 до 10");
 
-    if (userGuess === null || userGuess === "" || isNaN(userGuess)) {
+    if (userGuess === "" || isNaN(userGuess)) {
         alert("Подберите число");
     } else {
         const guess = parseInt(userGuess);
